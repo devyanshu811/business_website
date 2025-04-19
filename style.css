@@ -1,0 +1,50 @@
+body {
+    background-color: #fef6e4; /* Light coffee vibe */
+}
+
+h2 {
+    color: #6f4e37; /* Coffee brown */
+}
+/* Card Styling */
+.card {
+    transition: transform 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Price Styling */
+.price {
+    font-weight: bold;
+    color: var(--accent-color); /* Make sure --accent-color is defined somewhere */
+    font-size: 1.2rem;
+}
+
+/* Contact Info Styling */
+.contact-info {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info i {
+    color: var(--accent-color);
+    margin-right: 10px;
+}
+
+/* Font Awesome Import — FIXED */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+
+/* Animation for Contact Section */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.contact-section {
+    animation: fadeIn 1s ease-in;
+}
