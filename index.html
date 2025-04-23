@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>BrewMasters Coffee Shop</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">BrewMasters</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Welcome Section -->
+<section id="welcome" class="welcome-section py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 text text-center">
+                <div class="welcome-content">
+                    <h1 class="section-title mb-4">Welcome to BrewMasters</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12">
+                    <div class="about-content mb-5">
+                        <h2 class="section-title mb-4">About Us</h2>
+                        <h3>Our Story</h3>
+                        <p class="text-muted">Founded in 2020, BrewMasters has been serving the finest coffee to our community. We source our beans directly from local farmers and roast them in-house to ensure the perfect cup every time.</p>
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="feature-item d-flex align-items-center">
+                                    <i class="fas fa-coffee text-success me-3"></i>
+                                    <div>
+                                        <h4>Locally Sourced</h4>
+                                        <p class="text-muted">We source our beans from local farmers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-item d-flex align-items-center">
+                                    <i class="fas fa-handshake text-success me-3"></i>
+                                    <div>
+                                        <h4>Expert Baristas</h4>
+                                        <p class="text-muted">Our skilled baristas create perfect cups</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-item d-flex align-items-center">
+                                    <i class="fas fa-heart text-success me-3"></i>
+                                    <div>
+                                        <h4>Passionate Team</h4>
+                                        <p class="text-muted">We love what we do and it shows</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="feature-item d-flex align-items-center">
+                                    <i class="fas fa-leaf text-success me-3"></i>
+                                    <div>
+                                        <h4>Sustainable Practices</h4>
+                                        <p class="text-muted">We care about our environment</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- Hero Section -->
+ <section id="home" class="hero-section d-flex align-items-center justify-content-center text-center text-white">
+    <div class="hero-content">
+        <h1 class="display-4 fw-bold mb-4">Welcome to BrewMasters</h1>
+        <p class="lead mb-4">Experience the perfect cup of coffee</p>
+        <a href="#menu" class="btn btn-primary btn-lg px-4 py-2">View Menu</a>
+    </div>
+</section>
+
+
+   <!-- Menu Section -->
+<section id="menu" class="menu-section py-5">
+    <div class="container">
+        <div class="menu-bg">
+            <h2 class="section-title text-center mb-5">Our Menu</h2>
+            <div class="row">
+                <div class="col-12">
+                    <div class="menu-grid d-flex justify-content-center flex-wrap gap-4">
+                        <!-- Menu Item 1 -->
+                        <div class="card shadow menu-card" style="width: 18rem;">
+                            <img src="images/espresso.jpg" alt="Classic Espresso" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Classic Espresso</h5>
+                                <p class="card-text">Rich and bold espresso shot</p>
+                                <p class="price fw-bold">$2.50</p>
+                            </div>
+                        </div>
+                            <!-- Menu Item 2 -->
+                            <div class="card shadow menu-card" style="width: 18rem;">
+                                <img src="images/latte.jpg" alt="Caramel Latte" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Caramel Latte</h5>
+                                    <p class="card-text">Smooth latte with caramel drizzle</p>
+                                    <p class="price fw-bold">$3.99</p>
+                                </div>
+                            </div>
+
+                            <!-- Menu Item 3 -->
+                            <div class="card shadow menu-card" style="width: 18rem;">
+                                <img src="images/cappuccino.jpg" alt="Signature Cappuccino" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Signature Cappuccino</h5>
+                                    <p class="card-text">Perfectly frothed milk with espresso</p>
+                                    <p class="price fw-bold">$3.50</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <form id="contact-form">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-info">
+                        <h3>Visit Us</h3>
+                        <p><i class="fas fa-map-marker-alt me-2"></i>DEPUTY PARA KATCHERY CHOWK, RANCHI, JHARKHAND, INDIA</p>
+                        <p><i class="fas fa-phone me-2"></i>9142602084</p>
+                        <p><i class="fas fa-clock me-2"></i>Mon–Fri: 7:00 AM – 9:00 PM</p>
+                        <p><i class="fas fa-clock me-2"></i>Sat–Sun: 8:00 AM – 10:00 PM</p>
+                        <div class="social-links mt-4">
+                            <a href="#" class="me-3 text-dark"><i class="fab fa-facebook fa-lg"></i></a>
+                            <a href="#" class="me-3 text-dark"><i class="fab fa-instagram fa-lg"></i></a>
+                            <a href="#" class="text-dark"><i class="fab fa-twitter fa-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>BrewMasters</h5>
+                    <p>Your daily coffee destination</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p>&copy; 2024 BrewMasters Coffee Shop. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
